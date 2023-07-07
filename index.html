@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <title>Estudo HTML</title>
+    
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    
+    <!-- Bootstrap CSS -->
+    <link href="./CSS/style.css" rel="stylesheet">
+    <link href="./bootstrap_config/bootstrap.css" rel="stylesheet" >
+    <script src="./bootstrap_config/bootstrap.js"></script>
+  </head>
+  
+  <body>
+    <div class="container-fluid planofundo">
+    
+      <header class="container-fluid">
+        <div class="text-center">
+          <img src="./Images/logomarca.png" class="formatlogo" alt="logotipo WorkerMoney"></div>
+        <div class="row">
+          <h1 class="titulos">MoneyEasy</h1>
+        </div>
+      </header>
+
+      <main class="container-fluid">
+        <div class="row">
+          <form action="./cadastro.html">
+            <div class="mb-1">
+              <label for="InputEmail1" class="form-label formLabel"></label>
+              <input type="email" class="form-control caixaTexto" id="InputEmail1" aria-describedby="emailHelp" placeholder="teste@teste.com.br">
+            </div>
+            <div class="mb-2">
+              <label for="InputPassword1" class="form-label formLabel"></label>
+              <input type="password" class="form-control caixaTexto" id="InputPassword1" placeholder="password">
+            </div>
+            <div class="mb-2 form-check">
+              <input type="radio" class="form-check-input" id="Check1">
+              <label class="form-check-label formLabel" for="Check1">Lembrar de mim</label>
+            </div>
+            <a src="./cadastro.html"><button type="submit" class="btn1">Entrar</button></a>
+          </form>
+        </div>    
+      </main>
+
+      <footer class="container-fluid">
+        <div class="row col-12 mt-5">
+          <button type="submit" class="btn2">Ainda não tem conta?</button>
+        </div><br><br><br><br>
+      </footer>  
+    </div>
+  </body>
+
+</html>
